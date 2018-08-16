@@ -13,10 +13,8 @@
 		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
 		21AD419F96CEDC4366DB15B4664B6613 /* LXPodText-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9698F827CA02F53A47D672D5D7354400 /* LXPodText-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		26F355FE6BB4D1345784E8342460A291 /* Pods-LXPodText_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DAF8CE8D2824C39C9957587FC1C04170 /* Pods-LXPodText_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		293F72BF2125A16D00595EC2 /* XGCountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 293F72BD2125A16D00595EC2 /* XGCountDown.m */; };
-		293F72C02125A16D00595EC2 /* XGCountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 293F72BD2125A16D00595EC2 /* XGCountDown.m */; };
-		293F72C12125A16D00595EC2 /* XGCountDown.h in Headers */ = {isa = PBXBuildFile; fileRef = 293F72BE2125A16D00595EC2 /* XGCountDown.h */; };
-		293F72C22125A16D00595EC2 /* XGCountDown.h in Headers */ = {isa = PBXBuildFile; fileRef = 293F72BE2125A16D00595EC2 /* XGCountDown.h */; };
+		293F72C72125A84E00595EC2 /* XGCountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 293F72C52125A84E00595EC2 /* XGCountDown.m */; };
+		293F72C82125A84E00595EC2 /* XGCountDown.h in Headers */ = {isa = PBXBuildFile; fileRef = 293F72C62125A84E00595EC2 /* XGCountDown.h */; };
 		2E4F0C5D0483C4FAB3493AE8ED1ACCAC /* Pods-LXPodText_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 279FF81EB2D0E09CADE7F6E5BC19F05A /* Pods-LXPodText_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
@@ -83,8 +81,8 @@
 		1D886ACD60408A4B2B2017F0548D7A9A /* Pods_LXPodText_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXPodText_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		20C9C961A41BD32D23A40E3129F6B66B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		279FF81EB2D0E09CADE7F6E5BC19F05A /* Pods-LXPodText_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LXPodText_Example-umbrella.h"; sourceTree = "<group>"; };
-		293F72BD2125A16D00595EC2 /* XGCountDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGCountDown.m; sourceTree = "<group>"; };
-		293F72BE2125A16D00595EC2 /* XGCountDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGCountDown.h; sourceTree = "<group>"; };
+		293F72C52125A84E00595EC2 /* XGCountDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGCountDown.m; sourceTree = "<group>"; };
+		293F72C62125A84E00595EC2 /* XGCountDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGCountDown.h; sourceTree = "<group>"; };
 		2D5F9CFFC3B23DF797142108645B3042 /* Pods-LXPodText_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LXPodText_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
@@ -194,6 +192,15 @@
 				A67F33E79C85C294342AC63218080FD3 /* LXPodText */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		293F72C42125A84E00595EC2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				293F72C62125A84E00595EC2 /* XGCountDown.h */,
+				293F72C52125A84E00595EC2 /* XGCountDown.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		3288FCB8E15F6401DE6220AE5CA1D27B /* Support Files */ = {
@@ -314,8 +321,7 @@
 		A67F33E79C85C294342AC63218080FD3 /* LXPodText */ = {
 			isa = PBXGroup;
 			children = (
-				293F72BE2125A16D00595EC2 /* XGCountDown.h */,
-				293F72BD2125A16D00595EC2 /* XGCountDown.m */,
+				293F72C42125A84E00595EC2 /* Classes */,
 				F7F7842B5C8E34B4C4C338F780F4A93A /* Pod */,
 				411793DBF33D9F33E58FF1FA2F73D465 /* Support Files */,
 			);
@@ -370,7 +376,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21AD419F96CEDC4366DB15B4664B6613 /* LXPodText-umbrella.h in Headers */,
-				293F72C22125A16D00595EC2 /* XGCountDown.h in Headers */,
+				293F72C82125A84E00595EC2 /* XGCountDown.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,7 +392,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				293F72C12125A16D00595EC2 /* XGCountDown.h in Headers */,
 				B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */,
 				9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */,
 				BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */,
@@ -530,7 +535,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				293F72C02125A16D00595EC2 /* XGCountDown.m in Sources */,
+				293F72C72125A84E00595EC2 /* XGCountDown.m in Sources */,
 				E97C705AFDEF735E0AF04FB5733C296A /* LXPodText-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -541,7 +546,6 @@
 			files = (
 				506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */,
 				BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */,
-				293F72BF2125A16D00595EC2 /* XGCountDown.m in Sources */,
 				DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */,
 				A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */,
 				1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */,
