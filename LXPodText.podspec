@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LXPodText'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'A test project'
 
 # This description is used to generate tags and improve search results.
@@ -25,12 +25,12 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'leixiangxiang@edspay.com' => 'leixiangxiang@edspay.com' }
-  s.source           = { :git => 'https://github.com/leixiangxiang@edspay.com/LXPodText.git', :tag => 0.1.2 }
+  s.source           = { :git => 'https://github.com/leixiangxiang@edspay.com/LXPodText.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'LXPodText/Classes/**/*'
+  s.source_files = 'LXPodText/**/*'
   
   # s.resource_bundles = {
   #   'LXPodText' => ['LXPodText/Assets/*.png']
