@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LXPodText_Example' do
+  pod 'LXPodText', :path => '../'
+
+  target 'LXPodText_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
