@@ -1,0 +1,6 @@
+framework module LXPodText {
+  umbrella header "LXPodText-umbrella.h"
+
+  export *
+  module * { export * }
+}

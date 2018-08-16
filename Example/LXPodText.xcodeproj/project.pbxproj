@@ -37,10 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07DF59FCB58A40FAB90EA2F1 /* LXPodText.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LXPodText.podspec; path = ../LXPodText.podspec; sourceTree = "<group>"; };
+		07DF59FCB58A40FAB90EA2F1 /* LXPodText.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LXPodText.podspec; path = ../LXPodText.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		350764A127AC009293D925CF /* Pods-LXPodText_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXPodText_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LXPodText_Example/Pods-LXPodText_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		43B65D723CD2451BD795790B /* Pods-LXPodText_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXPodText_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LXPodText_Tests/Pods-LXPodText_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		53B81A423286A99057563D40 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		53B81A423286A99057563D40 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		5656974304A6D514C751051F /* Pods_LXPodText_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXPodText_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* LXPodText_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXPodText_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,7 +64,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8E53E8462A85E81801287E3E /* Pods-LXPodText_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXPodText_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LXPodText_Example/Pods-LXPodText_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A4817A5F28977790C90E7041 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A4817A5F28977790C90E7041 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B0A10EE83317D8D29F13FB79 /* Pods-LXPodText_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXPodText_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LXPodText_Tests/Pods-LXPodText_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BC9B36AE6729ABFEB62DF39E /* Pods_LXPodText_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXPodText_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -507,6 +507,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LXPodText/LXPodText-Prefix.pch";
 				INFOPLIST_FILE = "LXPodText/LXPodText-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -522,6 +523,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LXPodText/LXPodText-Prefix.pch";
 				INFOPLIST_FILE = "LXPodText/LXPodText-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
