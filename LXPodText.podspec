@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LXPodText'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'A test project'
 
 # This description is used to generate tags and improve search results.
@@ -30,15 +30,18 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'Classes/**/*'
+  # s.source_files = 'Classes/**/*'
   
   # s.resource_bundles = {
   #   'LXPodText' => ['LXPodText/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3' pod 'Masonry', '~> 1.1.0'
+  s.frameworks = 'AVFoundation', 'CoreMotion', 'CoreMedia'
   s.dependency 'AFNetworking', '~> 3.2.1'
   s.dependency 'Masonry', '~> 1.1.0'
+  s.vendored_libraries = 'Classes/Dependence/MoxieSDK/libMoxieSDK.a','Classes/Dependence/BaiQiShi/libBqsDFSDK-V2.2.1.a'
+  s.resources = 'Classes/FanbeiCreditSDKResource.bundle', 'Classes/Dependence/MGLivenessDetectionResource.bundle', 'Classes/Dependence/MGIDCardResource.bundle'
+  s.vendored_frameworks = 'Classes/Dependence/MGLivenessDetection.framework', 'Classes/Dependence/MGBaseKit.framework', 'Classes/Dependence/MGIDCard.framework','FanbeiCreditSDK.framework'
+  
 end

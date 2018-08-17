@@ -13,8 +13,16 @@
 		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
 		21AD419F96CEDC4366DB15B4664B6613 /* LXPodText-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9698F827CA02F53A47D672D5D7354400 /* LXPodText-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		26F355FE6BB4D1345784E8342460A291 /* Pods-LXPodText_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DAF8CE8D2824C39C9957587FC1C04170 /* Pods-LXPodText_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		293F72C72125A84E00595EC2 /* XGCountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 293F72C52125A84E00595EC2 /* XGCountDown.m */; };
-		293F72C82125A84E00595EC2 /* XGCountDown.h in Headers */ = {isa = PBXBuildFile; fileRef = 293F72C62125A84E00595EC2 /* XGCountDown.h */; };
+		293F72CA21269FF000595EC2 /* FanbeiCreditSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 293F72C921269FF000595EC2 /* FanbeiCreditSDK.framework */; };
+		293F72D12126A64400595EC2 /* BqsDeviceFingerPrinting.h in Headers */ = {isa = PBXBuildFile; fileRef = 293F72CF2126A64400595EC2 /* BqsDeviceFingerPrinting.h */; };
+		293F72D22126A64400595EC2 /* libBqsDFSDK-V2.2.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 293F72D02126A64400595EC2 /* libBqsDFSDK-V2.2.1.a */; };
+		293F72D42126A65300595EC2 /* MGBaseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 293F72D32126A65300595EC2 /* MGBaseKit.framework */; };
+		293F72D62126A65900595EC2 /* MGIDCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 293F72D52126A65900595EC2 /* MGIDCard.framework */; };
+		293F72D92126A66B00595EC2 /* MGLivenessDetection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 293F72D82126A66B00595EC2 /* MGLivenessDetection.framework */; };
+		293F72EB2126A68000595EC2 /* MoxieStatusView.h in Headers */ = {isa = PBXBuildFile; fileRef = 293F72DD2126A68000595EC2 /* MoxieStatusView.h */; };
+		293F72EC2126A68000595EC2 /* MoxieStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 293F72DE2126A68000595EC2 /* MoxieStatusView.m */; };
+		293F72ED2126A68000595EC2 /* MoxieSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 293F72E12126A68000595EC2 /* MoxieSDK.h */; };
+		293F72EE2126A68000595EC2 /* libMoxieSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 293F72EA2126A68000595EC2 /* libMoxieSDK.a */; };
 		2E4F0C5D0483C4FAB3493AE8ED1ACCAC /* Pods-LXPodText_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 279FF81EB2D0E09CADE7F6E5BC19F05A /* Pods-LXPodText_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
@@ -81,8 +89,26 @@
 		1D886ACD60408A4B2B2017F0548D7A9A /* Pods_LXPodText_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXPodText_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		20C9C961A41BD32D23A40E3129F6B66B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		279FF81EB2D0E09CADE7F6E5BC19F05A /* Pods-LXPodText_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LXPodText_Example-umbrella.h"; sourceTree = "<group>"; };
-		293F72C52125A84E00595EC2 /* XGCountDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGCountDown.m; sourceTree = "<group>"; };
-		293F72C62125A84E00595EC2 /* XGCountDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGCountDown.h; sourceTree = "<group>"; };
+		293F72C921269FF000595EC2 /* FanbeiCreditSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FanbeiCreditSDK.framework; sourceTree = "<group>"; };
+		293F72CB2126A03600595EC2 /* FanbeiCreditSDKResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FanbeiCreditSDKResource.bundle; sourceTree = "<group>"; };
+		293F72CF2126A64400595EC2 /* BqsDeviceFingerPrinting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BqsDeviceFingerPrinting.h; sourceTree = "<group>"; };
+		293F72D02126A64400595EC2 /* libBqsDFSDK-V2.2.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libBqsDFSDK-V2.2.1.a"; sourceTree = "<group>"; };
+		293F72D32126A65300595EC2 /* MGBaseKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MGBaseKit.framework; sourceTree = "<group>"; };
+		293F72D52126A65900595EC2 /* MGIDCard.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MGIDCard.framework; sourceTree = "<group>"; };
+		293F72D72126A66200595EC2 /* MGIDCardResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MGIDCardResource.bundle; sourceTree = "<group>"; };
+		293F72D82126A66B00595EC2 /* MGLivenessDetection.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MGLivenessDetection.framework; sourceTree = "<group>"; };
+		293F72DA2126A67200595EC2 /* MGLivenessDetectionResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MGLivenessDetectionResource.bundle; sourceTree = "<group>"; };
+		293F72DD2126A68000595EC2 /* MoxieStatusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoxieStatusView.h; sourceTree = "<group>"; };
+		293F72DE2126A68000595EC2 /* MoxieStatusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoxieStatusView.m; sourceTree = "<group>"; };
+		293F72E12126A68000595EC2 /* MoxieSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoxieSDK.h; sourceTree = "<group>"; };
+		293F72E32126A68000595EC2 /* mx_quit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mx_quit@2x.png"; sourceTree = "<group>"; };
+		293F72E42126A68000595EC2 /* screenshot_imported@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screenshot_imported@2x.png"; sourceTree = "<group>"; };
+		293F72E52126A68000595EC2 /* mx_refresh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mx_refresh@2x.png"; sourceTree = "<group>"; };
+		293F72E62126A68000595EC2 /* mx_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mx_back@2x.png"; sourceTree = "<group>"; };
+		293F72E72126A68000595EC2 /* screenshot_next@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screenshot_next@2x.png"; sourceTree = "<group>"; };
+		293F72E82126A68000595EC2 /* mx_ScanningLine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mx_ScanningLine@2x.png"; sourceTree = "<group>"; };
+		293F72E92126A68000595EC2 /* screenshot_header_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screenshot_header_bg@2x.png"; sourceTree = "<group>"; };
+		293F72EA2126A68000595EC2 /* libMoxieSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMoxieSDK.a; sourceTree = "<group>"; };
 		2D5F9CFFC3B23DF797142108645B3042 /* Pods-LXPodText_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LXPodText_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
@@ -161,7 +187,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				293F72D22126A64400595EC2 /* libBqsDFSDK-V2.2.1.a in Frameworks */,
 				6610F849BAFD8ED80CFD738450BBF220 /* Foundation.framework in Frameworks */,
+				293F72D42126A65300595EC2 /* MGBaseKit.framework in Frameworks */,
+				293F72D62126A65900595EC2 /* MGIDCard.framework in Frameworks */,
+				293F72EE2126A68000595EC2 /* libMoxieSDK.a in Frameworks */,
+				293F72CA21269FF000595EC2 /* FanbeiCreditSDK.framework in Frameworks */,
+				293F72D92126A66B00595EC2 /* MGLivenessDetection.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,10 +229,84 @@
 		293F72C42125A84E00595EC2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				293F72C62125A84E00595EC2 /* XGCountDown.h */,
-				293F72C52125A84E00595EC2 /* XGCountDown.m */,
+				293F72CD2126A5C500595EC2 /* Dependence */,
+				293F72CB2126A03600595EC2 /* FanbeiCreditSDKResource.bundle */,
+				293F72C921269FF000595EC2 /* FanbeiCreditSDK.framework */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		293F72CD2126A5C500595EC2 /* Dependence */ = {
+			isa = PBXGroup;
+			children = (
+				293F72DB2126A68000595EC2 /* MoxieSDK */,
+				293F72DA2126A67200595EC2 /* MGLivenessDetectionResource.bundle */,
+				293F72D82126A66B00595EC2 /* MGLivenessDetection.framework */,
+				293F72D72126A66200595EC2 /* MGIDCardResource.bundle */,
+				293F72D52126A65900595EC2 /* MGIDCard.framework */,
+				293F72D32126A65300595EC2 /* MGBaseKit.framework */,
+				293F72CE2126A64400595EC2 /* BaiQiShi */,
+			);
+			path = Dependence;
+			sourceTree = "<group>";
+		};
+		293F72CE2126A64400595EC2 /* BaiQiShi */ = {
+			isa = PBXGroup;
+			children = (
+				293F72CF2126A64400595EC2 /* BqsDeviceFingerPrinting.h */,
+				293F72D02126A64400595EC2 /* libBqsDFSDK-V2.2.1.a */,
+			);
+			path = BaiQiShi;
+			sourceTree = "<group>";
+		};
+		293F72DB2126A68000595EC2 /* MoxieSDK */ = {
+			isa = PBXGroup;
+			children = (
+				293F72DC2126A68000595EC2 /* MXView */,
+				293F72DF2126A68000595EC2 /* include */,
+				293F72E22126A68000595EC2 /* resources */,
+				293F72EA2126A68000595EC2 /* libMoxieSDK.a */,
+			);
+			path = MoxieSDK;
+			sourceTree = "<group>";
+		};
+		293F72DC2126A68000595EC2 /* MXView */ = {
+			isa = PBXGroup;
+			children = (
+				293F72DD2126A68000595EC2 /* MoxieStatusView.h */,
+				293F72DE2126A68000595EC2 /* MoxieStatusView.m */,
+			);
+			path = MXView;
+			sourceTree = "<group>";
+		};
+		293F72DF2126A68000595EC2 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				293F72E02126A68000595EC2 /* MoxieSDK */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		293F72E02126A68000595EC2 /* MoxieSDK */ = {
+			isa = PBXGroup;
+			children = (
+				293F72E12126A68000595EC2 /* MoxieSDK.h */,
+			);
+			path = MoxieSDK;
+			sourceTree = "<group>";
+		};
+		293F72E22126A68000595EC2 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				293F72E32126A68000595EC2 /* mx_quit@2x.png */,
+				293F72E42126A68000595EC2 /* screenshot_imported@2x.png */,
+				293F72E52126A68000595EC2 /* mx_refresh@2x.png */,
+				293F72E62126A68000595EC2 /* mx_back@2x.png */,
+				293F72E72126A68000595EC2 /* screenshot_next@2x.png */,
+				293F72E82126A68000595EC2 /* mx_ScanningLine@2x.png */,
+				293F72E92126A68000595EC2 /* screenshot_header_bg@2x.png */,
+			);
+			path = resources;
 			sourceTree = "<group>";
 		};
 		3288FCB8E15F6401DE6220AE5CA1D27B /* Support Files */ = {
@@ -375,8 +481,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				293F72ED2126A68000595EC2 /* MoxieSDK.h in Headers */,
+				293F72EB2126A68000595EC2 /* MoxieStatusView.h in Headers */,
 				21AD419F96CEDC4366DB15B4664B6613 /* LXPodText-umbrella.h in Headers */,
-				293F72C82125A84E00595EC2 /* XGCountDown.h in Headers */,
+				293F72D12126A64400595EC2 /* BqsDeviceFingerPrinting.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -535,8 +643,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				293F72C72125A84E00595EC2 /* XGCountDown.m in Sources */,
 				E97C705AFDEF735E0AF04FB5733C296A /* LXPodText-dummy.m in Sources */,
+				293F72EC2126A68000595EC2 /* MoxieStatusView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
