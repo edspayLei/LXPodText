@@ -18,7 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 
  @param appId 开发者在申请的appId
  @param appKey 开发者在申请的appKey
- @param mobile 用户手机号、可为空
+ @param mobile 用户手机号
  @param finish 认证结果的回调为yes时可以调取SDK，为no时表示初始化失败
  */
 + (void)initWithAppId:(NSString *)appId appKey:(NSString *)appKey mobile:(NSString *)mobile finish:(void(^)(BOOL License))finish;

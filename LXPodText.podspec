@@ -42,5 +42,5 @@ TODO: Add long description of the pod here.
   s.dependency 'Masonry', '~> 1.1.0'
   s.resources = 'Classes/Dependence/MGLivenessDetectionResource.bundle', 'Classes/Dependence/MGIDCardResource.bundle', 'Classes/Dependence/FanbeiCreditSDKResource.bundle'
   s.vendored_libraries = 'Classes/Dependence/MoxieSDK/libMoxieSDK.a','Classes/Dependence/BaiQiShi/libBqsDFSDK-V2.2.1.a'
-  s.vendored_frameworks = 'Classes/Dependence/MGLivenessDetection.framework', 'Classes/Dependence/MGBaseKit.framework', 'Classes/Dependence/MGIDCard.framework'
+  s.vendored_frameworks = 'Classes/Dependence/MGLivenessDetection.framework', 'Classes/Dependence/MGBaseKit.framework', 'Classes/Dependence/MGIDCard.framework', 'Classes/Dependence/FanbeiCreditSDK.framework'
 end
