@@ -1,9 +1,9 @@
 {
   "name": "LXPodText",
-  "version": "0.1.0",
-  "summary": "A short description of LXPodText.",
+  "version": "0.1.8",
+  "summary": "A test project",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/leixiangxiang@edspay.com/LXPodText",
+  "homepage": "https://github.com/edspayLei/LXPodText",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,33 @@
     "leixiangxiang@edspay.com": "leixiangxiang@edspay.com"
   },
   "source": {
-    "git": "https://github.com/leixiangxiang@edspay.com/LXPodText.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/edspayLei/LXPodText.git",
+    "tag": "0.1.8"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "LXPodText/Classes/**/*"
+  "frameworks": [
+    "AVFoundation",
+    "CoreMotion",
+    "CoreMedia"
+  ],
+  "dependencies": {
+    "AFNetworking": [
+      "~> 3.2.1"
+    ],
+    "Masonry": [
+      "~> 1.1.0"
+    ]
+  },
+  "vendored_libraries": [
+    "Classes/Dependence/MoxieSDK/libMoxieSDK.a",
+    "Classes/Dependence/BaiQiShi/libBqsDFSDK-V2.2.1.a"
+  ],
+  "resources": [
+    "Classes/Dependence/MGLivenessDetectionResource.bundle",
+    "Classes/Dependence/MGIDCardResource.bundle",
+    "Classes/Dependence/FanbeiCreditSDKResource.bundle"
+  ],
+  "vendored_frameworks": "Classes/Dependence/FanbeiCreditSDK.framework"
 }
