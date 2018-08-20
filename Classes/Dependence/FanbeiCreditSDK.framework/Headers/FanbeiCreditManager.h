@@ -16,15 +16,14 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  初始化
 
- @param appId 开发者在申请的appId
- @param appKey 开发者在申请的appKey
- @param mobile 用户手机号、可为空
- @param finish 认证结果的回调为yes时可以调取SDK，为no时表示初始化失败
+ @param appId               开发者在申请的appId
+ @param mobile              用户手机号
+ @param finish              认证结果的回调为yes时可以调取SDK，为no时表示初始化失败
  */
-+ (void)initWithAppId:(NSString *)appId appKey:(NSString *)appKey mobile:(NSString *)mobile finish:(void(^)(BOOL License))finish;
++ (void)initWithAppId:(NSString *)appId mobile:(NSString *)mobile finish:(void(^)(BOOL License))finish;
 
 /**
- 打开认证首页、需要在授权成功后调用
+ 打开认证首页 需要在授权成功后调用
 
  @param viewController      当前viewController
  @param mobile              用户手机号
