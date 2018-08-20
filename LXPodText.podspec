@@ -43,6 +43,5 @@ TODO: Add long description of the pod here.
   s.vendored_libraries = 'Classes/Dependence/MoxieSDK/libMoxieSDK.a','Classes/Dependence/BaiQiShi/libBqsDFSDK-V2.2.1.a'
   s.resources = 'Classes/Dependence/MGLivenessDetectionResource.bundle', 'Classes/Dependence/MGIDCardResource.bundle', 'Classes/Dependence/FanbeiCreditSDKResource.bundle'
   s.vendored_frameworks = 'Classes/Dependence/MGLivenessDetection.framework', 'Classes/Dependence/MGBaseKit.framework', 'Classes/Dependence/MGIDCard.framework'
-  # 'Classes/Dependence/FanbeiCreditSDK.framework'
   
 end
