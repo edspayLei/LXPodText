@@ -29,8 +29,7 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-
-  # s.source_files = 'Classes/**/*'
+  s.source_files = 'Classes/Dependence/MoxieSDK/**/*.{h,m}', 'Classes/Dependence/BaiQiShi/BqsDeviceFingerPrinting.h'
   
   # s.resource_bundles = {
   #   'LXPodText' => ['LXPodText/Assets/*.png']
@@ -40,7 +39,7 @@ TODO: Add long description of the pod here.
   s.frameworks = 'AVFoundation', 'CoreMotion', 'CoreMedia'
   s.dependency 'AFNetworking', '~> 3.2.1'
   s.dependency 'Masonry', '~> 1.1.0'
-  s.resources = 'Classes/Dependence/MGLivenessDetectionResource.bundle', 'Classes/Dependence/MGIDCardResource.bundle', 'Classes/Dependence/FanbeiCreditSDKResource.bundle'
+  s.resources = 'Classes/Dependence/MGLivenessDetectionResource.bundle', 'Classes/Dependence/MGIDCardResource.bundle', 'Classes/Dependence/FanbeiCreditSDKResource.bundle', 'Classes/Dependence/MoxieSDK/resources/*.png'
   s.vendored_libraries = 'Classes/Dependence/MoxieSDK/libMoxieSDK.a','Classes/Dependence/BaiQiShi/libBqsDFSDK-V2.2.1.a'
   s.vendored_frameworks = 'Classes/Dependence/MGLivenessDetection.framework', 'Classes/Dependence/MGBaseKit.framework', 'Classes/Dependence/MGIDCard.framework', 'Classes/Dependence/FanbeiCreditSDK.framework'
 end

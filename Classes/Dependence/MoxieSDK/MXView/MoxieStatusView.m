@@ -210,7 +210,7 @@
     //进度百分比【目前电商业务有】
     NSString *percent = progressDictionary[@"percent"];
     //是否已经完成登录
-    BOOL loginDone = [progressDictionary[@"loginDone"] boolValue];
+//    BOOL loginDone = [progressDictionary[@"loginDone"] boolValue];
     [self updateMessage:message];
     [self updateAccount:account];
     if(percent){
