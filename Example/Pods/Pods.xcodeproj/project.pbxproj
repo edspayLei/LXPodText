@@ -22,7 +22,7 @@
 		293F72EC2126A68000595EC2 /* MoxieStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 293F72DE2126A68000595EC2 /* MoxieStatusView.m */; };
 		293F72ED2126A68000595EC2 /* MoxieSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 293F72E12126A68000595EC2 /* MoxieSDK.h */; };
 		293F72EE2126A68000595EC2 /* libMoxieSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 293F72EA2126A68000595EC2 /* libMoxieSDK.a */; };
-		293F734A212B0A1F00595EC2 /* FanbeiCreditSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 293F7349212B0A1F00595EC2 /* FanbeiCreditSDK.framework */; };
+		293F734E212BB49500595EC2 /* FanbeiCreditSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 293F734D212BB49500595EC2 /* FanbeiCreditSDK.framework */; };
 		2E4F0C5D0483C4FAB3493AE8ED1ACCAC /* Pods-LXPodText_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 279FF81EB2D0E09CADE7F6E5BC19F05A /* Pods-LXPodText_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
@@ -108,7 +108,7 @@
 		293F72E92126A68000595EC2 /* screenshot_header_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screenshot_header_bg@2x.png"; sourceTree = "<group>"; };
 		293F72EA2126A68000595EC2 /* libMoxieSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMoxieSDK.a; sourceTree = "<group>"; };
 		293F7337212A6AE900595EC2 /* FanbeiCreditSDKResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FanbeiCreditSDKResource.bundle; sourceTree = "<group>"; };
-		293F7349212B0A1F00595EC2 /* FanbeiCreditSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FanbeiCreditSDK.framework; sourceTree = "<group>"; };
+		293F734D212BB49500595EC2 /* FanbeiCreditSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FanbeiCreditSDK.framework; sourceTree = "<group>"; };
 		2D5F9CFFC3B23DF797142108645B3042 /* Pods-LXPodText_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LXPodText_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
@@ -187,7 +187,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				293F734A212B0A1F00595EC2 /* FanbeiCreditSDK.framework in Frameworks */,
+				293F734E212BB49500595EC2 /* FanbeiCreditSDK.framework in Frameworks */,
 				293F72D22126A64400595EC2 /* libBqsDFSDK-V2.2.1.a in Frameworks */,
 				6610F849BAFD8ED80CFD738450BBF220 /* Foundation.framework in Frameworks */,
 				293F72D42126A65300595EC2 /* MGBaseKit.framework in Frameworks */,
@@ -237,7 +237,7 @@
 		293F72CD2126A5C500595EC2 /* Dependence */ = {
 			isa = PBXGroup;
 			children = (
-				293F7349212B0A1F00595EC2 /* FanbeiCreditSDK.framework */,
+				293F734D212BB49500595EC2 /* FanbeiCreditSDK.framework */,
 				293F7337212A6AE900595EC2 /* FanbeiCreditSDKResource.bundle */,
 				293F72DB2126A68000595EC2 /* MoxieSDK */,
 				293F72DA2126A67200595EC2 /* MGLivenessDetectionResource.bundle */,
